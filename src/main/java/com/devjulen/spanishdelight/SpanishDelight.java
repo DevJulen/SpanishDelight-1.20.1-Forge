@@ -1,5 +1,6 @@
 package com.devjulen.spanishdelight;
 
+import com.devjulen.spanishdelight.common.registry.ModCreativeTabs;
 import com.devjulen.spanishdelight.common.registry.ModItemsRegistry;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.item.CreativeModeTab;
@@ -39,6 +40,7 @@ public class SpanishDelight {
         modEventBus.addListener(this::addCreative);
 
         ModItemsRegistry.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
