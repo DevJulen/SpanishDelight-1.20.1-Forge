@@ -1,5 +1,8 @@
 package com.devjulen.spanishdelight.common;
 
+import net.minecraft.world.effect.MobEffect;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.Item;
@@ -34,4 +37,32 @@ public class SDFoodValues {
 
     public static final FoodProperties SQUID_RINGS = new FoodProperties.Builder()
             .nutrition(1).saturationMod(0.1f).fast().build();
+
+    // New recipes
+    public static final FoodProperties SPANISH_TORTILLA = new FoodProperties.Builder()
+            .nutrition(7).saturationMod(0.8f).build();
+
+    public static final FoodProperties PAELLA = new FoodProperties.Builder()
+            .nutrition(8).saturationMod(0.8f).build();
+
+    public static final FoodProperties PIL_PIL_COD = new FoodProperties.Builder()
+            .nutrition(8).saturationMod(0.7f).build();
+
+    public static final FoodProperties CROQUETTES = new FoodProperties.Builder()
+            .nutrition(6).saturationMod(0.6f).build();
+
+    public static final FoodProperties BRAVA_POTATOES = new FoodProperties.Builder()
+            .nutrition(6).saturationMod(0.6f).build();
+
+    public static final FoodProperties CHURROS = new FoodProperties.Builder()
+            .nutrition(5).saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, MEDIUM_DURATION, 1), 1.0f).build();
+
+    public static final FoodProperties GAZPACHO = new FoodProperties.Builder()
+            .nutrition(6).saturationMod(0.7f).build();
+
+    public static final FoodProperties PANTUMACA = new FoodProperties.Builder()
+            .nutrition(6).saturationMod(0.7f).build();
+
+    public static final FoodProperties FRIED_SQUID_RINGS = new FoodProperties.Builder()
+            .nutrition(6).saturationMod(0.5f).build();
 }

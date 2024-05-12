@@ -1,6 +1,9 @@
 package com.devjulen.spanishdelight;
 
+import com.devjulen.spanishdelight.common.registry.ModItemsRegistry;
 import com.mojang.logging.LogUtils;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -35,14 +38,14 @@ public class SpanishDelight {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        ModItemsRegistry.register(modEventBus);
+
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        // Some common setup code
-        LOGGER.info("HELLO FROM COMMON SETUP");
-        LOGGER.info(Config.magicNumberIntroduction + Config.magicNumber);
+
     }
 
     // Add the example block item to the building blocks tab
