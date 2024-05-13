@@ -1,10 +1,11 @@
-// 1.20.1	2024-05-12T10:28:12.0735986	Item Models: spanishdelight
+// 1.20.1	2024-05-13T16:54:22.9440688	Item Models: spanishdelight
 b45e0d01381bec3267053d9432dab59e7569cdd4 assets/spanishdelight/models/item/brava_potatoes.json
 1a14aa5e1417a907f741b4f932a9190e9a1f4633 assets/spanishdelight/models/item/churros.json
 b1780fcb535da08f71fd8a643be8eb0393be82fa assets/spanishdelight/models/item/croquettes.json
 c5a6151bbaed2616f4fe2e0a661d26bb1bed5fa0 assets/spanishdelight/models/item/fried_squid_rings.json
 a364bf29eb75d48179fb8f73330dc182e7462cac assets/spanishdelight/models/item/garlic.json
 3ca88c5b9986de6f117c56bbff3263161cb4c782 assets/spanishdelight/models/item/gazpacho.json
+4a03201086030c0362bede24a71371cdc63f32b8 assets/spanishdelight/models/item/green_bean.json
 c037f6437ca4894cf9586f887070c7bcc1d52726 assets/spanishdelight/models/item/green_pepper.json
 da0aec14c6718daf02592694f77ed3bc672f37b6 assets/spanishdelight/models/item/paella.json
 81d8609e98b566a9334475009f2a37af7620b1be assets/spanishdelight/models/item/pantumaca.json

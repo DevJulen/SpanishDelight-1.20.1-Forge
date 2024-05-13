@@ -21,6 +21,7 @@ public class ItemModels extends ItemModelProvider {
         simpleItem(ModItemsRegistry.SLICED_POTATO);
         simpleItem(ModItemsRegistry.SLICED_ONION);
         simpleItem(ModItemsRegistry.GARLIC);
+        simpleItem(ModItemsRegistry.GREEN_BEAN);
         simpleItem(ModItemsRegistry.RED_PEPPER);
         simpleItem(ModItemsRegistry.GREEN_PEPPER);
         simpleItem(ModItemsRegistry.SQUID_RINGS);
