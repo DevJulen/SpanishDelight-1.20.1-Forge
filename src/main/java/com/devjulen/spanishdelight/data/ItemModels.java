@@ -24,16 +24,16 @@ public class ItemModels extends ItemModelProvider {
         simpleItem(ModItemsRegistry.GREEN_BEAN);
         simpleItem(ModItemsRegistry.RED_PEPPER);
         simpleItem(ModItemsRegistry.GREEN_PEPPER);
-        simpleItem(ModItemsRegistry.SQUID_RINGS);
+        simpleItem(ModItemsRegistry.SQUID_RING);
         simpleItem(ModItemsRegistry.SPANISH_TORTILLA);
         simpleItem(ModItemsRegistry.PAELLA);
         simpleItem(ModItemsRegistry.PIL_PIL_COD);
         simpleItem(ModItemsRegistry.CROQUETTES);
         simpleItem(ModItemsRegistry.BRAVA_POTATOES);
-        simpleItem(ModItemsRegistry.CHURROS);
+        simpleItem(ModItemsRegistry.CHURRO);
         simpleItem(ModItemsRegistry.GAZPACHO);
         simpleItem(ModItemsRegistry.PANTUMACA);
-        simpleItem(ModItemsRegistry.FRIED_SQUID_RINGS);
+        simpleItem(ModItemsRegistry.FRIED_SQUID_RING);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

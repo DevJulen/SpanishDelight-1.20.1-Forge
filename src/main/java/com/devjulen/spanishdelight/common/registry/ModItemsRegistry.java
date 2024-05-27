@@ -2,10 +2,8 @@ package com.devjulen.spanishdelight.common.registry;
 
 import com.devjulen.spanishdelight.SpanishDelight;
 import com.devjulen.spanishdelight.common.SDFoodValues;
-import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -27,7 +25,7 @@ public class ModItemsRegistry {
 
     public static final RegistryObject<Item> RED_PEPPER = addToTab(ITEMS.register("red_pepper", () -> new Item(new Item.Properties().food(SDFoodValues.RED_PEPPER))));
     public static final RegistryObject<Item> GREEN_PEPPER = addToTab(ITEMS.register("green_pepper", () -> new Item(new Item.Properties().food(SDFoodValues.GREEN_PEPPER))));
-    public static final RegistryObject<Item> SQUID_RINGS = addToTab(ITEMS.register("squid_rings", () -> new Item(new Item.Properties().food(SDFoodValues.SQUID_RINGS))));
+    public static final RegistryObject<Item> SQUID_RING = addToTab(ITEMS.register("squid_ring", () -> new Item(new Item.Properties().food(SDFoodValues.SQUID_RING))));
 
     // Cooking recipes
     public static final RegistryObject<Item> SPANISH_TORTILLA = addToTab(ITEMS.register("spanish_tortilla", () -> new Item(new Item.Properties().food(SDFoodValues.SPANISH_TORTILLA))));
@@ -35,10 +33,10 @@ public class ModItemsRegistry {
     public static final RegistryObject<Item> PIL_PIL_COD = addToTab(ITEMS.register("pil_pil_cod", () -> new Item(new Item.Properties().food(SDFoodValues.PIL_PIL_COD))));
     public static final RegistryObject<Item> CROQUETTES = addToTab(ITEMS.register("croquettes", () -> new Item(new Item.Properties().food(SDFoodValues.CROQUETTES))));
     public static final RegistryObject<Item> BRAVA_POTATOES = addToTab(ITEMS.register("brava_potatoes", () -> new Item(new Item.Properties().food(SDFoodValues.BRAVA_POTATOES))));
-    public static final RegistryObject<Item> CHURROS = addToTab(ITEMS.register("churros", () -> new Item(new Item.Properties().food(SDFoodValues.CHURROS))));
+    public static final RegistryObject<Item> CHURRO = addToTab(ITEMS.register("churro", () -> new Item(new Item.Properties().food(SDFoodValues.CHURRO))));
     public static final RegistryObject<Item> GAZPACHO = addToTab(ITEMS.register("gazpacho", () -> new Item(new Item.Properties().food(SDFoodValues.GAZPACHO))));
     public static final RegistryObject<Item> PANTUMACA = addToTab(ITEMS.register("pantumaca", () -> new Item(new Item.Properties().food(SDFoodValues.PANTUMACA))));
-    public static final RegistryObject<Item> FRIED_SQUID_RINGS = addToTab(ITEMS.register("fried_squid_rings", () -> new Item(new Item.Properties().food(SDFoodValues.FRIED_SQUID_RINGS))));
+    public static final RegistryObject<Item> FRIED_SQUID_RING = addToTab(ITEMS.register("fried_squid_ring", () -> new Item(new Item.Properties().food(SDFoodValues.FRIED_SQUID_RING))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

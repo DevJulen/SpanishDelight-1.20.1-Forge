@@ -1,8 +1,8 @@
-// 1.20.1	2024-05-13T16:54:22.9440688	Item Models: spanishdelight
+// 1.20.1	2024-05-27T18:06:09.3260125	Item Models: spanishdelight
 b45e0d01381bec3267053d9432dab59e7569cdd4 assets/spanishdelight/models/item/brava_potatoes.json
-1a14aa5e1417a907f741b4f932a9190e9a1f4633 assets/spanishdelight/models/item/churros.json
+15b25b5525e88758b9da5219ee88ac534d20ebf1 assets/spanishdelight/models/item/churro.json
 b1780fcb535da08f71fd8a643be8eb0393be82fa assets/spanishdelight/models/item/croquettes.json
-c5a6151bbaed2616f4fe2e0a661d26bb1bed5fa0 assets/spanishdelight/models/item/fried_squid_rings.json
+6b1c093588630129aaf6b135a3fab2a9d4e52129 assets/spanishdelight/models/item/fried_squid_ring.json
 a364bf29eb75d48179fb8f73330dc182e7462cac assets/spanishdelight/models/item/garlic.json
 3ca88c5b9986de6f117c56bbff3263161cb4c782 assets/spanishdelight/models/item/gazpacho.json
 4a03201086030c0362bede24a71371cdc63f32b8 assets/spanishdelight/models/item/green_bean.json
@@ -15,4 +15,4 @@ f98c4e8b9e8951e65fad503d9f372f3c7d97419b assets/spanishdelight/models/item/red_p
 fa9a37bba2c0aa351b1120006b65b71b9be42352 assets/spanishdelight/models/item/sliced_onion.json
 333c17cf0a6e85475b692459b688f77c85ff7756 assets/spanishdelight/models/item/sliced_potato.json
 1e99457b19fefc2764343b5d0d8c5a297d52a720 assets/spanishdelight/models/item/spanish_tortilla.json
-bf136dcc5e3c2e65adc0166a42a44d31d72b15b6 assets/spanishdelight/models/item/squid_rings.json
+13c9b667cdca5245dd6d734ab5e7ce2c74d1fec9 assets/spanishdelight/models/item/squid_ring.json

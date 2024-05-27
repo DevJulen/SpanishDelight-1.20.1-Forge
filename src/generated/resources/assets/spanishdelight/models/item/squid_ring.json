@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "spanishdelight:item/churros"
+    "layer0": "spanishdelight:item/squid_ring"
   }
 }
