@@ -6,7 +6,15 @@
       "loot_table_id": "minecraft:entities/squid"
     },
     {
-      "condition": "minecraft:killed_by_player"
+      "condition": "minecraft:entity_properties",
+      "entity": "killer",
+      "predicate": {
+        "equipment": {
+          "mainhand": {
+            "tag": "farmersdelight:tools/knives"
+          }
+        }
+      }
     }
   ],
   "item": "spanishdelight:squid_ring"

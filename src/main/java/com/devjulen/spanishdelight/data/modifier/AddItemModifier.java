@@ -1,5 +1,6 @@
 package com.devjulen.spanishdelight.data.modifier;
 
+import com.devjulen.spanishdelight.common.registry.ModItemsRegistry;
 import com.google.common.base.Suppliers;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -14,6 +15,7 @@ import net.minecraftforge.common.loot.LootModifier;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.jetbrains.annotations.NotNull;
 
+import java.util.Random;
 import java.util.function.Supplier;
 
 public class AddItemModifier extends LootModifier {
@@ -21,28 +23,32 @@ public class AddItemModifier extends LootModifier {
             .fieldOf("item").forGetter(m -> m.item)).apply(inst, AddItemModifier::new)));
 
     private final Item item;
+    private final Random rand = new Random();
 
     public AddItemModifier(LootItemCondition[] conditionsIn, Item item) {
         super(conditionsIn);
         this.item = item;
     }
 
-    // IN THIS METHOD WE DEFINE THE CHANGES THAT WE WANT TO MAKE TO THE LOOT TABLE, EITHER TO REMOVE OR ADD ITEMS TO IT
     @Override
     protected @NotNull ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> objectArrayList, LootContext lootContext) {
         for(LootItemCondition condition : this.conditions) {
             if(!condition.test(lootContext)) return objectArrayList;
         }
 
-        objectArrayList.add(new ItemStack(item));
+        objectArrayList.add(new ItemStack(item, getAmountBasedOnItem(item)));
 
-        //// checks if the player is holding a knife
-        //lootContext.getLevel().players().get(0).getItemInHand(InteractionHand.MAIN_HAND).equals(vectorwing.farmersdelight.common.registry.ModItems.DIAMOND_KNIFE)
         return objectArrayList;
     }
 
     @Override
     public Codec<? extends IGlobalLootModifier> codec() {
         return CODEC.get();
+    }
+
+    private int getAmountBasedOnItem(Item item) {
+        if(item.equals(ModItemsRegistry.SQUID_RING.get())) return rand.nextInt(2, 5);
+
+        return 1;
     }
 }
