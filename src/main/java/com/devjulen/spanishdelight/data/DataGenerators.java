@@ -28,8 +28,9 @@ public class DataGenerators {
 
         generator.addProvider(event.includeClient(), new ItemModels(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new BlockStates(packOutput, existingFileHelper));
-        generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(), List.of(
+        generator.addProvider(event.includeServer(), new LootTables(packOutput, Collections.emptySet(), List.of(
                 new LootTableProvider.SubProviderEntry(SDBlockLootTables::new, LootContextParamSets.BLOCK)
         )));
+        generator.addProvider(event.includeServer(), new GlobalLootModifiers(packOutput));
     }
 }
