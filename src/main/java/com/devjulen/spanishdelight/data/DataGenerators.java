@@ -6,6 +6,8 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.loot.LootTableProvider;
+import net.minecraft.world.item.alchemy.Potion;
+import net.minecraft.world.item.alchemy.Potions;
 import net.minecraft.world.level.storage.loot.parameters.LootContextParamSets;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.data.event.GatherDataEvent;
@@ -32,5 +34,10 @@ public class DataGenerators {
                 new LootTableProvider.SubProviderEntry(SDBlockLootTables::new, LootContextParamSets.BLOCK)
         )));
         generator.addProvider(event.includeServer(), new GlobalLootModifiers(packOutput));
+
+        BlockTags blockStates = generator.addProvider(event.includeServer(), new BlockTags(packOutput, lookUpProvider, existingFileHelper));
+        generator.addProvider(event.includeClient(), new ItemTags(packOutput, lookUpProvider, blockStates.contentsGetter(), existingFileHelper));
+
+        generator.addProvider(event.includeServer(), new Recipes(packOutput));
     }
 }

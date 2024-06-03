@@ -1,0 +1,5 @@
+// 1.20.1	2024-06-03T18:56:52.2097985	Tags for minecraft:item mod id spanishdelight
+d66078fe03c4a07a0a12934d4bb5bbf3b63a223e data/forge/tags/items/eggs.json
+9c99444249ea9362072a08ee44c2d01c8ab03176 data/forge/tags/items/flour/wheat.json
+c62b9be8a52938b166add3c15cf8fe7b6021f08a data/spanishdelight/tags/items/water_ingredient.json
+9c99444249ea9362072a08ee44c2d01c8ab03176 data/spanishdelight/tags/items/wheat_ingredient.json
