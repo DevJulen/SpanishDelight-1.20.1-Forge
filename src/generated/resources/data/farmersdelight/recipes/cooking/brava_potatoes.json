@@ -1,0 +1,23 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "spanishdelight:sliced_potato"
+    },
+    {
+      "item": "spanishdelight:sliced_potato"
+    },
+    {
+      "item": "spanishdelight:paprika"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "spanishdelight:brava_potatoes"
+  }
+}

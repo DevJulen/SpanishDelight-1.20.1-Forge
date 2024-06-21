@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spanishdelight:pantumaca"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomato_and_bread": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:tomato"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:bread"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tomato_and_bread",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spanishdelight:pantumaca"
+    ]
+  },
+  "sends_telemetry_event": false
+}

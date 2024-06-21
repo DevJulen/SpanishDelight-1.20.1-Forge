@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "container": {
+    "item": "minecraft:bowl"
+  },
+  "cookingtime": 400,
+  "experience": 2.0,
+  "ingredients": [
+    {
+      "item": "spanishdelight:green_pepper"
+    },
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "spanishdelight:sliced_potato"
+    },
+    {
+      "item": "spanishdelight:garlic"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "spanishdelight:pil_pil_cod"
+  }
+}

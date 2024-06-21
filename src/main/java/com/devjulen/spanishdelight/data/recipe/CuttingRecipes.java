@@ -13,5 +13,11 @@ public class CuttingRecipes {
     public static void register(Consumer<FinishedRecipe> consumer) {
         CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(Items.POTATO), Ingredient.of(ForgeTags.TOOLS_KNIVES), ModItemsRegistry.SLICED_POTATO.get(), 3)
                 .build(consumer);
+
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(vectorwing.farmersdelight.common.registry.ModItems.ONION.get()), Ingredient.of(ForgeTags.TOOLS_KNIVES), ModItemsRegistry.SLICED_ONION.get(), 3)
+                .build(consumer);
+
+        CuttingBoardRecipeBuilder.cuttingRecipe(Ingredient.of(ModItemsRegistry.RED_PEPPER.get()), Ingredient.of(ForgeTags.TOOLS_KNIVES), ModItemsRegistry.PAPRIKA.get(), 3)
+                .build(consumer);
     }
 }

@@ -1,0 +1,26 @@
+{
+  "type": "farmersdelight:cooking",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:ham"
+    },
+    {
+      "tag": "spanishdelight:water_ingredient"
+    },
+    {
+      "tag": "forge:flour/wheat"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "item": "minecraft:bread"
+    }
+  ],
+  "recipe_book_tab": "meals",
+  "result": {
+    "item": "spanishdelight:croquettes"
+  }
+}

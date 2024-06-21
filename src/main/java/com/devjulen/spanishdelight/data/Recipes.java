@@ -1,6 +1,7 @@
 package com.devjulen.spanishdelight.data;
 
 import com.devjulen.spanishdelight.data.recipe.CookingRecipes;
+import com.devjulen.spanishdelight.data.recipe.CraftingRecipes;
 import com.devjulen.spanishdelight.data.recipe.CuttingRecipes;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.FinishedRecipe;
@@ -16,6 +17,7 @@ public class Recipes extends RecipeProvider {
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> consumer) {
         CuttingRecipes.register(consumer);
+        CraftingRecipes.register(consumer);
         CookingRecipes.register(consumer);
     }
 }

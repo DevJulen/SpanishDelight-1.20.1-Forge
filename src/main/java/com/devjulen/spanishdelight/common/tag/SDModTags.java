@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 
 public class SDModTags {
     public static final TagKey<Item> WATER_INGREDIENT = modItemTag("water_ingredient");
-    public static final TagKey<Item> WHEAT_INGREDIENT = modItemTag("wheat_ingredient");
+    public static final TagKey<Item> MILK_INGREDIENT = modItemTag("water_ingredient");
 
     private static TagKey<Item> modItemTag(String path) {
         return ItemTags.create(new ResourceLocation(SpanishDelight.MOD_ID, path));

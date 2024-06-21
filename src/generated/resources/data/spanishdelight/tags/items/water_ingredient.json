@@ -1,5 +1,7 @@
 {
   "values": [
-    "minecraft:water_bucket"
+    "minecraft:water_bucket",
+    "minecraft:milk_bucket",
+    "farmersdelight:milk_bottle"
   ]
 }

@@ -31,7 +31,7 @@ public class ItemTags extends ItemTagsProvider {
 
     private void registerModTags() {
         tag(SDModTags.WATER_INGREDIENT).add(Items.WATER_BUCKET);
-        tag(SDModTags.WHEAT_INGREDIENT).add(Items.WHEAT);
+        tag(SDModTags.MILK_INGREDIENT).add(Items.MILK_BUCKET, vectorwing.farmersdelight.common.registry.ModItems.MILK_BOTTLE.get());
     }
 
     public void registerCompatibilityTags() {

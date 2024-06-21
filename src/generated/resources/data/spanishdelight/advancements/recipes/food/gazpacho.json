@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "spanishdelight:gazpacho"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_tomato_and_garlic": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "farmersdelight:tomato"
+            ]
+          },
+          {
+            "items": [
+              "spanishdelight:garlic"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_tomato_and_garlic",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "spanishdelight:gazpacho"
+    ]
+  },
+  "sends_telemetry_event": false
+}
