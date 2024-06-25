@@ -25,7 +25,7 @@ public class CookingRecipes {
 
     private static void cookMeals(Consumer<FinishedRecipe> consumer) {
         // TORTILLA
-        CookingPotRecipeBuilder.cookingPotRecipe(ModItemsRegistry.SPANISH_TORTILLA.get(), 1, SLOW_COOKING, LARGE_EXP, Items.BOWL)
+        CookingPotRecipeBuilder.cookingPotRecipe(ModItemsRegistry.SPANISH_TORTILLA.get(), 1, FAST_COOKING, LARGE_EXP)
                 .addIngredient(ModItemsRegistry.SLICED_POTATO.get())
                 .addIngredient(ModItemsRegistry.SLICED_ONION.get())
                 .addIngredient(Items.EGG)
