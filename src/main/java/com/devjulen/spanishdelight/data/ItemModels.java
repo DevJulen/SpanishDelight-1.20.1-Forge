@@ -1,10 +1,12 @@
 package com.devjulen.spanishdelight.data;
 
 import com.devjulen.spanishdelight.SpanishDelight;
+import com.devjulen.spanishdelight.common.registry.ModBlocksRegistry;
 import com.devjulen.spanishdelight.common.registry.ModItemsRegistry;
 import net.minecraft.data.PackOutput;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.client.model.generators.ItemModelBuilder;
 import net.minecraftforge.client.model.generators.ItemModelProvider;
 import net.minecraftforge.common.data.ExistingFileHelper;
@@ -34,11 +36,21 @@ public class ItemModels extends ItemModelProvider {
         simpleItem(ModItemsRegistry.GAZPACHO);
         simpleItem(ModItemsRegistry.PANTUMACA);
         simpleItem(ModItemsRegistry.FRIED_SQUID_RING);
+
+        blockItemBlockTexture(ModBlocksRegistry.WILD_GARLIC);
+        blockItemBlockTexture(ModBlocksRegistry.WILD_RED_PEPPER);
+        blockItemBlockTexture(ModBlocksRegistry.WILD_GREEN_PEPPER);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
         return withExistingParent(item.getId().getPath(),
                 new ResourceLocation("item/generated")).texture("layer0",
                 new ResourceLocation(SpanishDelight.MOD_ID,"item/" + item.getId().getPath()));
+    }
+
+    private ItemModelBuilder blockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(SpanishDelight.MOD_ID, "block/" + item.getId().getPath()));
     }
 }

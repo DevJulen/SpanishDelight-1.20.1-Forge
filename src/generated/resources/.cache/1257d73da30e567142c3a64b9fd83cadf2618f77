@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-27T18:06:09.3260125	Item Models: spanishdelight
+// 1.20.1	2024-07-03T11:40:11.2515486	Item Models: spanishdelight
 b45e0d01381bec3267053d9432dab59e7569cdd4 assets/spanishdelight/models/item/brava_potatoes.json
 15b25b5525e88758b9da5219ee88ac534d20ebf1 assets/spanishdelight/models/item/churro.json
 b1780fcb535da08f71fd8a643be8eb0393be82fa assets/spanishdelight/models/item/croquettes.json
@@ -16,3 +16,6 @@ fa9a37bba2c0aa351b1120006b65b71b9be42352 assets/spanishdelight/models/item/slice
 333c17cf0a6e85475b692459b688f77c85ff7756 assets/spanishdelight/models/item/sliced_potato.json
 1e99457b19fefc2764343b5d0d8c5a297d52a720 assets/spanishdelight/models/item/spanish_tortilla.json
 13c9b667cdca5245dd6d734ab5e7ce2c74d1fec9 assets/spanishdelight/models/item/squid_ring.json
+c0ebebe6fb52c21dbb796692a06c2c4b0d84127d assets/spanishdelight/models/item/wild_garlic.json
+46a6b9e03d580780fa65339e54274350a7f323f4 assets/spanishdelight/models/item/wild_green_pepper.json
+6a8bf5e314e3ef2e64d600443ac7dd76ed11c90d assets/spanishdelight/models/item/wild_red_pepper.json

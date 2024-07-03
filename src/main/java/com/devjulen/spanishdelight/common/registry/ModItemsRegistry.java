@@ -2,6 +2,7 @@ package com.devjulen.spanishdelight.common.registry;
 
 import com.devjulen.spanishdelight.SpanishDelight;
 import com.devjulen.spanishdelight.common.SDFoodValues;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -12,6 +13,11 @@ import static com.devjulen.spanishdelight.common.registry.ModCreativeTabs.addToT
 
 public class ModItemsRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SpanishDelight.MOD_ID);
+
+    // Helper methods
+    public static Item.Properties basicItem() {
+        return new Item.Properties();
+    }
 
     // Non-edible items
     public static final RegistryObject<Item> PAPRIKA = addToTab(ITEMS.register("paprika", () -> new Item(new Item.Properties())));
@@ -37,6 +43,11 @@ public class ModItemsRegistry {
     public static final RegistryObject<Item> GAZPACHO = addToTab(ITEMS.register("gazpacho", () -> new Item(new Item.Properties().food(SDFoodValues.GAZPACHO))));
     public static final RegistryObject<Item> PANTUMACA = addToTab(ITEMS.register("pantumaca", () -> new Item(new Item.Properties().food(SDFoodValues.PANTUMACA))));
     public static final RegistryObject<Item> FRIED_SQUID_RING = addToTab(ITEMS.register("fried_squid_ring", () -> new Item(new Item.Properties().food(SDFoodValues.FRIED_SQUID_RING))));
+
+    // Blocks
+    public static final RegistryObject<Item> WILD_GARLIC = addToTab(ITEMS.register("wild_garlic", () -> new BlockItem(ModBlocksRegistry.WILD_GARLIC.get(), basicItem())));
+    public static final RegistryObject<Item> WILD_RED_PEPPER = addToTab(ITEMS.register("wild_red_pepper", () -> new BlockItem(ModBlocksRegistry.WILD_RED_PEPPER.get(), basicItem())));
+    public static final RegistryObject<Item> WILD_GREEN_PEPPER = addToTab(ITEMS.register("wild_green_pepper", () -> new BlockItem(ModBlocksRegistry.WILD_GREEN_PEPPER.get(), basicItem())));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

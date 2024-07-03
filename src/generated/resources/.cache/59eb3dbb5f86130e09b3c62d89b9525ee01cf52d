@@ -1,2 +1,5 @@
-// 1.20.1	2024-05-13T17:05:01.8101129	Loot Tables
+// 1.20.1	2024-07-03T12:02:02.9430228	Loot Tables
 2dcf94e3b34e3e0b12868bf9433a4db43fb6995c data/spanishdelight/loot_tables/blocks/green_bean_crop.json
+a5a4ab9a6251ffe5a45bcf845663e20533e99523 data/spanishdelight/loot_tables/blocks/wild_garlic.json
+94ae555427767e53a029383ddad51d8cd7acb16e data/spanishdelight/loot_tables/blocks/wild_green_pepper.json
+fbe0d846818813c14e08d4ee0464ad00e9926fa7 data/spanishdelight/loot_tables/blocks/wild_red_pepper.json
