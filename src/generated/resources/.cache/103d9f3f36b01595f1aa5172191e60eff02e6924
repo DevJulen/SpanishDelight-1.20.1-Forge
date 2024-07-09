@@ -1,0 +1,4 @@
+// 1.20.1	2024-07-09T19:01:35.0019778	Registries
+5da964d8bf9f397fb51aea37a8b2566fa33e67bf data/spanishdelight/forge/biome_modifier/add_wild_garlic.json
+f02121503582bcb56b6ee8a7a663e62e88c2b75f data/spanishdelight/worldgen/configured_feature/wild_garlic.json
+bdebf3d03327b7eb808a888284b6ccb55651947c data/spanishdelight/worldgen/placed_feature/wild_garlic_placement.json

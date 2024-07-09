@@ -39,5 +39,7 @@ public class DataGenerators {
         generator.addProvider(event.includeClient(), new ItemTags(packOutput, lookUpProvider, blockStates.contentsGetter(), existingFileHelper));
 
         generator.addProvider(event.includeServer(), new Recipes(packOutput));
+
+        generator.addProvider(event.includeServer(), new WorldGen(packOutput, lookUpProvider));
     }
 }
