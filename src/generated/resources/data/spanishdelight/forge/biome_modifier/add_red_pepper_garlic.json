@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_savanna",
+  "features": "spanishdelight:wild_red_pepper_placement",
+  "step": "vegetal_decoration"
+}

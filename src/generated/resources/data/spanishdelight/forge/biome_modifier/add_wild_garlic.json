@@ -1,6 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": "#minecraft:is_jungle",
+  "biomes": "#forge:is_plains",
   "features": "spanishdelight:wild_garlic_placement",
   "step": "vegetal_decoration"
 }

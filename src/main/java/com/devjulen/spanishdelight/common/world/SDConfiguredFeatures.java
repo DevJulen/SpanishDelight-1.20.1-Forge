@@ -16,10 +16,18 @@ import net.minecraft.world.level.levelgen.feature.stateproviders.BlockStateProvi
 
 public class SDConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> WILD_GARLIC_KEY = registerKey("wild_garlic");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> WILD_RED_PEPPER_KEY = registerKey("wild_red_pepper");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> WILD_GREEN_PEPPER_KEY = registerKey("wild_green_pepper");
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
         register(context, WILD_GARLIC_KEY, Feature.FLOWER, new RandomPatchConfiguration(8, 1, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
                         new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocksRegistry.WILD_GARLIC.get())))));
+
+        register(context, WILD_RED_PEPPER_KEY, Feature.FLOWER, new RandomPatchConfiguration(8, 1, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocksRegistry.WILD_RED_PEPPER.get())))));
+
+        register(context, WILD_GREEN_PEPPER_KEY, Feature.FLOWER, new RandomPatchConfiguration(8, 1, 1, PlacementUtils.onlyWhenEmpty(Feature.SIMPLE_BLOCK,
+                new SimpleBlockConfiguration(BlockStateProvider.simple(ModBlocksRegistry.WILD_GREEN_PEPPER.get())))));
     }
 
     private static ResourceKey<ConfiguredFeature<?,?>> registerKey(String name) {
