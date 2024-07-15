@@ -1,0 +1,25 @@
+{
+  "item.spanishdelight.paprika": "Pimentón",
+  "item.spanishdelight.sliced_potato": "Patata Troceada",
+  "item.spanishdelight.sliced_onion": "Cebolla Troceada",
+  "item.spanishdelight.garlic": "Ajo",
+  "item.spanishdelight.green_bean": "Judía Verde",
+  "item.spanishdelight.red_pepper": "Pimiento Rojo",
+  "item.spanishdelight.green_pepper": "Pimiento Verde",
+  "item.spanishdelight.squid_ring": "Anillas de Calamar",
+  "item.spanishdelight.spanish_tortilla": "Tortilla de Patata",
+  "item.spanishdelight.paella": "Paella",
+  "item.spanishdelight.pil_pil_cod": "Bacalao al Pil Pil",
+  "item.spanishdelight.croquettes": "Croquetas",
+  "item.spanishdelight.brava_potatoes": "Patatas Bravas",
+  "item.spanishdelight.churro": "Churros",
+  "item.spanishdelight.gazpacho": "Gazpacho",
+  "item.spanishdelight.pantumaca": "Pantumaca",
+  "item.spanishdelight.fried_squid_ring": "Anillas de Calamar Fritas",
+
+  "block.spanishdelight.wild_garlic": "Ajo Salvaje",
+  "block.spanishdelight.wild_red_pepper": "Pimiento Rojo Salvaje",
+  "block.spanishdelight.wild_green_pepper": "Pimiento Verde Salvaje",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}
