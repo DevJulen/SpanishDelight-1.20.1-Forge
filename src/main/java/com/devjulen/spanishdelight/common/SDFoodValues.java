@@ -5,8 +5,10 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import vectorwing.farmersdelight.common.FoodValues;
+import vectorwing.farmersdelight.common.registry.ModEffects;
 
 public class SDFoodValues {
+
     // Durations for the effects
     public static final int BRIEF_DURATION = 600;    // 30 seconds
     public static final int SHORT_DURATION = 1200;    // 1 minute
@@ -37,29 +39,29 @@ public class SDFoodValues {
 
     // New recipes
     public static final FoodProperties SPANISH_TORTILLA = new FoodProperties.Builder()
-            .nutrition(7).saturationMod(0.8f).build();
+            .nutrition(7).saturationMod(0.8f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties PAELLA = new FoodProperties.Builder()
-            .nutrition(8).saturationMod(0.8f).build();
+            .nutrition(8).saturationMod(0.8f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), LONG_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties PIL_PIL_COD = new FoodProperties.Builder()
-            .nutrition(8).saturationMod(0.7f).build();
+            .nutrition(8).saturationMod(0.7f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), LONG_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties CROQUETTES = new FoodProperties.Builder()
-            .nutrition(6).saturationMod(0.6f).build();
+            .nutrition(6).saturationMod(0.6f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), SHORT_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties BRAVA_POTATOES = new FoodProperties.Builder()
-            .nutrition(6).saturationMod(0.6f).build();
+            .nutrition(6).saturationMod(0.6f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties CHURRO = new FoodProperties.Builder()
-            .nutrition(5).saturationMod(0.6f).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, MEDIUM_DURATION, 1), 1.0f).build();
+            .nutrition(5).saturationMod(0.6f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), SHORT_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties GAZPACHO = new FoodProperties.Builder()
-            .nutrition(6).saturationMod(0.7f).build();
+            .nutrition(6).saturationMod(0.7f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), SHORT_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties PANTUMACA = new FoodProperties.Builder()
-            .nutrition(6).saturationMod(0.7f).build();
+            .nutrition(6).saturationMod(0.7f).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
     public static final FoodProperties FRIED_SQUID_RING = new FoodProperties.Builder()
-            .nutrition(6).saturationMod(0.5f).build();
+            .nutrition(6).saturationMod(0.5f).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), SHORT_DURATION, 0), 1.0F).build();
 }
