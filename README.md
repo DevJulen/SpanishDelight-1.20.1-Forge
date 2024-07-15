@@ -7,8 +7,7 @@
 
 
 <p dir="auto"><img style="display: block; margin-left: auto; margin-right: auto;" src="src/main/resources/spanishdelightbanner.png" alt="Crabber's Delight" width="675" height="185" /></p>
-<p style="text-align: left;"><span style="font-size: 14px;"><strong>Spanish Delight</strong> is a mod that expands upon the cooking system from <strong>Farmer's Delight.</strong></span></p>
-<p><span style="font-size: 14px;">It introduces different types of spanish plates such as Gazpacho, Spanish Tortilla, Croquettes and more! </span><span style="font-size: 14px;"><br /></span></p>
+<p style="text-align: left;"><span style="font-size: 14px;"><strong>Spanish Delight</strong> is a mod that expands upon the cooking system from <strong>Farmer's Delight</strong> introducing spanish cuisine's traditional plates such as Spanish Tortilla, Gazpacho and more.</strong></span></p>
 <p><span style="font-size: 14px;">Find new ingredients spawned in the world and cook delicious new meals! </span><span style="font-size: 14px;"><br /></span></p>
 
 <p dir="auto"><span style="font-size: 14px;">⚙️ <strong>Dependencies:</strong></span></p>

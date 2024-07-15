@@ -7,8 +7,12 @@ modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
 authors="${mod_authors}"
+credits="ArBeet for making the textures and vectorwing for creating Farmer's Delight"
+description="A Farmer's Delight expansion adding spanish cuisine to Minecraft!"
+displayURL = "https://github.com/DevJulen/SpanishDelight-1.20.1-Forge"
+logoFile = "spanishdelightbanner.png"
+logoBlur = true
 
-description='''${mod_description}'''
 [[dependencies.${mod_id}]] #optional
     modId="forge"
     mandatory=true
