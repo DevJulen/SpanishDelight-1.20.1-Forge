@@ -1,0 +1,25 @@
+{
+  "item.spanishdelight.paprika": "Piperrautsa",
+  "item.spanishdelight.sliced_potato": "Patata Zatitua",
+  "item.spanishdelight.sliced_onion": "Tipula Zatitua",
+  "item.spanishdelight.garlic": "Baratxuria",
+  "item.spanishdelight.green_bean": "Baba Berdea",
+  "item.spanishdelight.red_pepper": "Piper Gorria",
+  "item.spanishdelight.green_pepper": "Piper Berdea",
+  "item.spanishdelight.squid_ring": "Txipiroi Eraztuna",
+  "item.spanishdelight.spanish_tortilla": "Patata Tortila",
+  "item.spanishdelight.paella": "Paella",
+  "item.spanishdelight.pil_pil_cod": "Bakailaoa Pil-pil Erara",
+  "item.spanishdelight.croquettes": "Kroketak",
+  "item.spanishdelight.brava_potatoes": "Patata Brabak",
+  "item.spanishdelight.churro": "Txurroak",
+  "item.spanishdelight.gazpacho": "Gazpatxo",
+  "item.spanishdelight.pantumaca": "Pantumaka",
+  "item.spanishdelight.fried_squid_ring": "Txipiroi Eraztun Frijitua",
+
+  "block.spanishdelight.wild_garlic": "Baratxuri Basatia",
+  "block.spanishdelight.wild_red_pepper": "Piper Gorri Basatia",
+  "block.spanishdelight.wild_green_pepper": "Piper Berde Basatia",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}

@@ -1,0 +1,25 @@
+{
+  "item.spanishdelight.paprika": "Pebre vermell mòlt",
+  "item.spanishdelight.sliced_potato": "Patata Tallada",
+  "item.spanishdelight.sliced_onion": "Ceba Tallada",
+  "item.spanishdelight.garlic": "All",
+  "item.spanishdelight.green_bean": "Mongeta Tendra",
+  "item.spanishdelight.red_pepper": "Pebrot Vermell",
+  "item.spanishdelight.green_pepper": "Pebrot Verd",
+  "item.spanishdelight.squid_ring": "Anelles de Calamar",
+  "item.spanishdelight.spanish_tortilla": "Truita de Patates",
+  "item.spanishdelight.paella": "Paella",
+  "item.spanishdelight.pil_pil_cod": "Bacallà al Pil-Pil",
+  "item.spanishdelight.croquettes": "Croquetes",
+  "item.spanishdelight.brava_potatoes": "Patates Braves",
+  "item.spanishdelight.churro": "Xurros",
+  "item.spanishdelight.gazpacho": "Gaspatxo",
+  "item.spanishdelight.pantumaca": "Pa amb Tomàquet",
+  "item.spanishdelight.fried_squid_ring": "Anelles de Calamar Fregides",
+
+  "block.spanishdelight.wild_garlic": "All Salvatge",
+  "block.spanishdelight.wild_red_pepper": "Pebrot Vermell Salvatge",
+  "block.spanishdelight.wild_green_pepper": "Pebrot Verd Salvatge",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}
