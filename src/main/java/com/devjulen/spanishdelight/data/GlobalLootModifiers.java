@@ -22,8 +22,30 @@ public class GlobalLootModifiers extends GlobalLootModifierProvider {
 
     @Override
     protected void start() {
+        // Squid ring added to the regular squid
         add("squid_ring_from_squid", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/squid")).build(),
+                LootItemEntityPropertyCondition.hasProperties(LootContext.EntityTarget.KILLER,
+                        new EntityPredicate.Builder().equipment(
+                                new EntityEquipmentPredicate(ItemPredicate.ANY,
+                                        ItemPredicate.ANY,
+                                        ItemPredicate.ANY,
+                                        ItemPredicate.ANY,
+                                        new ItemPredicate(ModTags.KNIVES,
+                                                null,
+                                                MinMaxBounds.Ints.ANY,
+                                                MinMaxBounds.Ints.ANY,
+                                                pEnchantments,
+                                                pStoredEnchantments,
+                                                null,
+                                                NbtPredicate.ANY),
+                                        ItemPredicate.ANY))).build(),
+        },
+                ModItemsRegistry.SQUID_RING.get()));
+
+        // Squid ring added to the glowing squid
+        add("squid_ring_from_squid", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("entities/glow_squid")).build(),
                 LootItemEntityPropertyCondition.hasProperties(LootContext.EntityTarget.KILLER,
                         new EntityPredicate.Builder().equipment(
                                 new EntityEquipmentPredicate(ItemPredicate.ANY,
