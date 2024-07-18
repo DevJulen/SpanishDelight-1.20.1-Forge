@@ -21,5 +21,9 @@
   "block.spanishdelight.wild_red_pepper": "Pimiento Rojo Salvaje",
   "block.spanishdelight.wild_green_pepper": "Pimiento Verde Salvaje",
 
+  "tooltip.spanishdelight.squid_ring": "Se obtiene matando un calamar con cualquier cuchillo",
+  "tooltip.spanishdelight.green_bean": "Intercambia con el aldeano granjero para conseguirla!",
+  "tooltip.spanishdelight.press_shift": "Pulsa SHIFT para más información",
+
   "creativetab.sdelight_tab": "Spanish Delight"
 }

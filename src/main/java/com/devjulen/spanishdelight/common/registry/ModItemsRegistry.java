@@ -2,6 +2,8 @@ package com.devjulen.spanishdelight.common.registry;
 
 import com.devjulen.spanishdelight.SpanishDelight;
 import com.devjulen.spanishdelight.common.SDFoodValues;
+import com.devjulen.spanishdelight.common.item.GreenBean;
+import com.devjulen.spanishdelight.common.item.SquidRing;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemNameBlockItem;
@@ -27,11 +29,11 @@ public class ModItemsRegistry {
     public static final RegistryObject<Item> SLICED_ONION = addToTab(ITEMS.register("sliced_onion", () -> new Item(new Item.Properties().food(SDFoodValues.SLICED_ONION))));
     public static final RegistryObject<Item> GARLIC = addToTab(ITEMS.register("garlic", () -> new Item(new Item.Properties().food(SDFoodValues.GARLIC))));
 
-    public static final RegistryObject<Item> GREEN_BEAN = addToTab(ITEMS.register("green_bean", () -> new ItemNameBlockItem(ModBlocksRegistry.GREEN_BEAN_CROP.get(), (new Item.Properties()).food(SDFoodValues.GREEN_BEAN))));
+    public static final RegistryObject<Item> GREEN_BEAN = addToTab(ITEMS.register("green_bean", () -> new GreenBean(ModBlocksRegistry.GREEN_BEAN_CROP.get(), (new Item.Properties()).food(SDFoodValues.GREEN_BEAN))));
 
     public static final RegistryObject<Item> RED_PEPPER = addToTab(ITEMS.register("red_pepper", () -> new Item(new Item.Properties().food(SDFoodValues.RED_PEPPER))));
     public static final RegistryObject<Item> GREEN_PEPPER = addToTab(ITEMS.register("green_pepper", () -> new Item(new Item.Properties().food(SDFoodValues.GREEN_PEPPER))));
-    public static final RegistryObject<Item> SQUID_RING = addToTab(ITEMS.register("squid_ring", () -> new Item(new Item.Properties().food(SDFoodValues.SQUID_RING))));
+    public static final RegistryObject<Item> SQUID_RING = addToTab(ITEMS.register("squid_ring", () -> new SquidRing(new Item.Properties().food(SDFoodValues.SQUID_RING))));
 
     // Cooking recipes
     public static final RegistryObject<Item> SPANISH_TORTILLA = addToTab(ITEMS.register("spanish_tortilla", () -> new Item(new Item.Properties().food(SDFoodValues.SPANISH_TORTILLA))));

@@ -15,11 +15,15 @@
   "item.spanishdelight.churro": "Xurros",
   "item.spanishdelight.gazpacho": "Gaspatxo",
   "item.spanishdelight.pantumaca": "Pa amb Tomàquet",
-  "item.spanishdelight.fried_squid_ring": "Anelles de Calamar Fregides",
+  "item.spanishdelight.fried_squid_ring": "Anella de Calamar Fregides",
 
   "block.spanishdelight.wild_garlic": "All Salvatge",
   "block.spanishdelight.wild_red_pepper": "Pebrot Vermell Salvatge",
   "block.spanishdelight.wild_green_pepper": "Pebrot Verd Salvatge",
+
+  "tooltip.spanishdelight.squid_ring": "S'obté matant un calamar amb qualsevol ganivet",
+  "tooltip.spanishdelight.green_bean": "Intercanvia amb el vilatà granger per aconseguir-la!",
+  "tooltip.spanishdelight.press_shift": "Clica SHIFT per a més informació",
 
   "creativetab.sdelight_tab": "Spanish Delight"
 }

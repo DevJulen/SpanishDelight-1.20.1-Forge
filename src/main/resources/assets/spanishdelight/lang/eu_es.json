@@ -21,5 +21,9 @@
   "block.spanishdelight.wild_red_pepper": "Piper Gorri Basatia",
   "block.spanishdelight.wild_green_pepper": "Piper Berde Basatia",
 
+  "tooltip.spanishdelight.squid_ring": "Txipiroi bat edozein labainarekin hiltzean lortu daiteke",
+  "tooltip.spanishdelight.green_bean": "Nekazari baserritararekin objekturen bat trukatu hau lortzeko!",
+  "tooltip.spanishdelight.press_shift": "SHIFT sakatu gehio jakiteko",
+
   "creativetab.sdelight_tab": "Spanish Delight"
 }
