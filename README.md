@@ -1,13 +1,14 @@
 # Spanish Delight
 
-
+<!--- link de arriba: link al mod --->
+<!--- link de abajo: cambiar el numero por el id del proyecto en cuestion --->
 <!---<a href="https://www.curseforge.com/minecraft/mc-mods/farmers-delight">
   <img src="http://cf.way2muchnoise.eu/full_892827_downloads.svg" alt="Curseforge Downloads">
 </a>--->
 
 
-<p dir="auto"><img style="display: block; margin-left: auto; margin-right: auto;" src="src/main/resources/spanishdelightbanner.png" alt="Crabber's Delight" width="675" height="185" /></p>
-<p style="text-align: left;"><span style="font-size: 14px;"><strong>Spanish Delight</strong> is a mod that expands upon the cooking system from <strong>Farmer's Delight</strong> introducing spanish cuisine's traditional plates such as Spanish Tortilla, Gazpacho and more.</strong></span></p>
+<p dir="auto"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://github.com/DevJulen/SpanishDelight-1.20.1-Forge/blob/master/src/main/resources/spanishdelightbanner.png?raw=true" alt="Spanish Delight" width="675" height="185" /></p>
+<p style="text-align: left;"><span style="font-size: 14px;"><strong>Spanish Delight</strong> is a mod that expands upon the cooking system from <strong>Farmer's Delight</strong> introducing spanish cuisine's traditional plates such as Spanish Tortilla, Gazpacho and more.</span></p>
 <p><span style="font-size: 14px;">Find new ingredients spawned in the world and cook delicious new meals! </span><span style="font-size: 14px;"><br /></span></p>
 
 <p dir="auto"><span style="font-size: 14px;">⚙️ <strong>Dependencies:</strong></span></p>

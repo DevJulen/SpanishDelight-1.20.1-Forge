@@ -1,0 +1,29 @@
+{
+  "item.spanishdelight.paprika": "Pimentón",
+  "item.spanishdelight.sliced_potato": "Patata Troçeá",
+  "item.spanishdelight.sliced_onion": "Çeboya Troçeá",
+  "item.spanishdelight.garlic": "Aho",
+  "item.spanishdelight.green_bean": "Hudía Berde",
+  "item.spanishdelight.red_pepper": "Pimiento Roho",
+  "item.spanishdelight.green_pepper": "Pimiento Berde",
+  "item.spanishdelight.squid_ring": "Aniya de Calamâh",
+  "item.spanishdelight.spanish_tortilla": "Tortiya de Patatâ",
+  "item.spanishdelight.paella": "Paeya",
+  "item.spanishdelight.pil_pil_cod": "Bacalao ar Pîh Pîh",
+  "item.spanishdelight.croquettes": "Croquetâ",
+  "item.spanishdelight.brava_potatoes": "Patatâ Brabâ",
+  "item.spanishdelight.churro": "Xurrô",
+  "item.spanishdelight.gazpacho": "Gâppaxo",
+  "item.spanishdelight.pantumaca": "Pantumaca",
+  "item.spanishdelight.fried_squid_ring": "Aniya de Calamâh Frita",
+
+  "block.spanishdelight.wild_garlic": "Aho Çarbahe",
+  "block.spanishdelight.wild_red_pepper": "Pimiento Roho Çarbahe",
+  "block.spanishdelight.wild_green_pepper": "Pimiento Berde Çarbahe",
+
+  "tooltip.spanishdelight.squid_ring": "S'obté matant un calamar amb qualsevol ganivet",
+  "tooltip.spanishdelight.green_bean": "Intercanvia amb el vilatà granger per aconseguir-la!",
+  "tooltip.spanishdelight.press_shift": "Clica SHIFT per a més informació",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}
