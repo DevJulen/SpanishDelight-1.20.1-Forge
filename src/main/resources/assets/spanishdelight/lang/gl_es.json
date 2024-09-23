@@ -1,0 +1,29 @@
+{
+  "item.spanishdelight.paprika": "Pimentón",
+  "item.spanishdelight.sliced_potato": "Pataca Picada",
+  "item.spanishdelight.sliced_onion": "Cebola Picada",
+  "item.spanishdelight.garlic": "Allo",
+  "item.spanishdelight.green_bean": "Feixón Verde",
+  "item.spanishdelight.red_pepper": "Pemento Vermello",
+  "item.spanishdelight.green_pepper": "Pemento Verde",
+  "item.spanishdelight.squid_ring": "Anel de luras",
+  "item.spanishdelight.spanish_tortilla": "Tortilla de Pataca",
+  "item.spanishdelight.paella": "Paella",
+  "item.spanishdelight.pil_pil_cod": "Bacallau ao Pil-Pil",
+  "item.spanishdelight.croquettes": "Croquetas",
+  "item.spanishdelight.brava_potatoes": "Patacas Bravas",
+  "item.spanishdelight.churro": "Churros",
+  "item.spanishdelight.gazpacho": "Gazpacho",
+  "item.spanishdelight.pantumaca": "Pa amb Tomàquet",
+  "item.spanishdelight.fried_squid_ring": "Anel de Lurar Fritida",
+
+  "block.spanishdelight.wild_garlic": "Allo Silvestre",
+  "block.spanishdelight.wild_red_pepper": "Pimento Vermello Salvaxe",
+  "block.spanishdelight.wild_green_pepper": "Pimento Verde Salvaxe",
+
+  "tooltip.spanishdelight.squid_ring": "Obtido matando unha lura con calquera coitelo",
+  "tooltip.spanishdelight.green_bean": "Comercio co labrego aldeán para conseguilo!",
+  "tooltip.spanishdelight.press_shift": "Preme SHIFT para obter máis información",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}
