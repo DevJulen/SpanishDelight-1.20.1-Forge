@@ -19,7 +19,7 @@ public class SquidRing extends Item {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if(Screen.hasShiftDown()) {
-            pTooltipComponents.add(Component.translatable("tooltip.spanishdelight.green_bean"));
+            pTooltipComponents.add(Component.translatable("tooltip.spanishdelight.squid_ring"));
         } else {
             pTooltipComponents.add(Component.translatable("tooltip.spanishdelight.press_shift").withStyle(ChatFormatting.YELLOW));
         }

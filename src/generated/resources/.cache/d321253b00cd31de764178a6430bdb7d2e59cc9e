@@ -1,3 +1,4 @@
-// 1.20.1	2024-07-17T09:36:25.8016297	Global Loot Modifiers : spanishdelight
-b2375507a31553b55f1f5db283f3c9e1cdc1ce77 data/forge/loot_modifiers/global_loot_modifiers.json
-20c24f37bf7f41d033e9a6c058e00805d108e0df data/spanishdelight/loot_modifiers/squid_ring_from_squid.json
+// 1.20.1	2024-09-23T18:07:07.6727775	Global Loot Modifiers : spanishdelight
+60863168d959b324d63097aa70dbec66d70804c8 data/forge/loot_modifiers/global_loot_modifiers.json
+20c24f37bf7f41d033e9a6c058e00805d108e0df data/spanishdelight/loot_modifiers/squid_ring_from_glowing_squid.json
+989912accef45ed114cdd7a388094dce17144836 data/spanishdelight/loot_modifiers/squid_ring_from_squid.json

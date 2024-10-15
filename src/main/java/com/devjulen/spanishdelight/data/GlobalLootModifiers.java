@@ -44,7 +44,7 @@ public class GlobalLootModifiers extends GlobalLootModifierProvider {
                 ModItemsRegistry.SQUID_RING.get()));
 
         // Squid ring added to the glowing squid
-        add("squid_ring_from_squid", new AddItemModifier(new LootItemCondition[]{
+        add("squid_ring_from_glowing_squid", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("entities/glow_squid")).build(),
                 LootItemEntityPropertyCondition.hasProperties(LootContext.EntityTarget.KILLER,
                         new EntityPredicate.Builder().equipment(
