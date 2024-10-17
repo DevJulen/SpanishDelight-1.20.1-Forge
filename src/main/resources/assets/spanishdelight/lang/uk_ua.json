@@ -1,0 +1,29 @@
+{
+  "item.spanishdelight.paprika": "Паприка",
+  "item.spanishdelight.sliced_potato": "Нарізана картопля",
+  "item.spanishdelight.sliced_onion": "Нарізана цибуля",
+  "item.spanishdelight.garlic": "Часник",
+  "item.spanishdelight.green_bean": "Стручкова квасоля",
+  "item.spanishdelight.red_pepper": "Червоний перець",
+  "item.spanishdelight.green_pepper": "Зелений перець",
+  "item.spanishdelight.squid_ring": "Спрутові кільця",
+  "item.spanishdelight.spanish_tortilla": "Іспанська тортилья",
+  "item.spanishdelight.paella": "Паея",
+  "item.spanishdelight.pil_pil_cod": "Тріска піль-піль",
+  "item.spanishdelight.croquettes": "Крокети",
+  "item.spanishdelight.brava_potatoes": "Картопля бравас",
+  "item.spanishdelight.churro": "Чурос",
+  "item.spanishdelight.gazpacho": "Ґаспачо",
+  "item.spanishdelight.pantumaca": "Хліб з помідором",
+  "item.spanishdelight.fried_squid_ring": "Смажені спрутові кільця",
+
+  "block.spanishdelight.wild_garlic": "Дикий часник",
+  "block.spanishdelight.wild_red_pepper": "Дикий червоний перець",
+  "block.spanishdelight.wild_green_pepper": "Дикий зелений перець",
+
+  "tooltip.spanishdelight.squid_ring": "Отримується при вбивстві спрутів ножем",
+  "tooltip.spanishdelight.green_bean": "Поторгуйте із селянином-фермером, щоб отримати!",
+  "tooltip.spanishdelight.press_shift": "Натисніть SHIFT для подробиць",
+
+  "creativetab.sdelight_tab": "Spanish Delight"
+}
